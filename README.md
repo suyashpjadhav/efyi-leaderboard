@@ -1,7 +1,7 @@
 # EYFI Leaderboard
 **Production-Grade AI-Audited Leaderboard & Verification Platform for the EYFI 30-Day Challenge**
 
-EYFI Leaderboard is a full-stack, enterprise-grade web application built for the [EYFI 30-Day Challenge](https://eyfichallenge.com/). The platform ranks student entrepreneurs, freelance creators, micro-SaaS founders, and digital agency hustlers based on total verified earnings. Featuring **Framer Motion physics**, **Google Gemini 1.5 Flash Vision AI** for automated receipt fraud auditing, **tabular financial precision**, and a **Gen-Z social flex card story generator**, EYFI Leaderboard delivers an award-winning, high-energy gaming & fintech user experience.
+EYFI Leaderboard is a full-stack, enterprise-grade web application built for the [EYFI 30-Day Challenge](https://eyfichallenge.com/). The platform ranks student entrepreneurs, freelance creators, micro-SaaS founders, and digital agency hustlers based on total verified earnings. Featuring **Framer Motion physics**, **Google Gemini 1.5 Flash Vision AI** for automated receipt fraud auditing, **tabular financial precision**, and a **cool social flex card story generator**, EYFI Leaderboard delivers an award winning, high energy gaming & fintech user experience.
 
 ---
 
