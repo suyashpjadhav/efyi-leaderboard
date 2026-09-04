@@ -1,0 +1,17 @@
+{
+  "name": "eyfi-leaderboard-monorepo",
+  "version": "1.0.0",
+  "description": "Production-Grade Leaderboard Engine for EYFI 30-Day Challenge",
+  "scripts": {
+    "setup": "npm install --prefix Backend && npm install --prefix Frontend",
+    "start:backend": "cd Backend && node server.js",
+    "dev:backend": "cd Backend && node server.js",
+    "dev:frontend": "cd Frontend && npm run dev",
+    "build:frontend": "cd Frontend && npm run build",
+    "build": "cd Frontend && npm run build",
+    "test:health": "node -e \"require('http').get('http://localhost:3001/api/health', res => { if(res.statusCode === 200) { console.log('✅ Backend API Health check passed'); process.exit(0); } else { process.exit(1); } });\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

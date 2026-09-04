@@ -1,0 +1,18 @@
+{
+  "name": "eyfi-leaderboard-backend",
+  "version": "1.0.0",
+  "description": "EYFI 30-Day Challenge REST API & AI LLM Microservice Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "node-cache": "^5.1.2",
+    "pg": "^8.13.3"
+  }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-void: #080a0c;
+  --bg-card: #12151a;
+  --bg-card-hover: #181c24;
+  --eyfi-lime: #ccff00;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #080a0c;
+  color: #f3f4f6;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* EYFI Editorial Tagline Serif Font */
+.font-serif-italic {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-style: italic;
+}
+
+/* Background Dot Grid Matrix */
+.bg-dot-matrix {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080a0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222732;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ccff00;
+}

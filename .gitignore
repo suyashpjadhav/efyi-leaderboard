@@ -1,0 +1,53 @@
+# ========================================================
+# EYFI LEADERBOARD MONOREPO GITIGNORE
+# ========================================================
+
+# Environment Variables & Secrets (PREVENT ACCIDENTAL LEAKS)
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Node Dependencies & Package Managers (Root, Backend & Frontend)
+node_modules/
+**/node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+package-lock.json
+**/package-lock.json
+
+# Build Outputs & Distribution Bundles
+dist/
+dist-ssr/
+**/dist/
+Frontend/dist/
+Backend/dist/
+*.tsbuildinfo
+
+# Local Runtime Databases & Storage
+*.db
+*.sqlite
+*.sqlite3
+eyfi_leaderboard.json
+Backend/eyfi_leaderboard.json
+
+# Logs & Debugging Output
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & System Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
