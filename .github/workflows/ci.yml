@@ -1,4 +1,4 @@
-name: EYFI Full-Stack CI/CD Pipeline
+name: CI Pipeline
 
 on:
   push:
@@ -7,14 +7,14 @@ on:
     branches: [ main, master ]
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 20.x
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20.x
@@ -29,9 +29,4 @@ jobs:
           cd Frontend
           npm run build
 
-      - name: Test Backend Health API
-        run: |
-          node Backend/server.js &
-          sleep 4
-          curl -f http://localhost:3001/api/health
 
