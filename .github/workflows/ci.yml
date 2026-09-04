@@ -19,14 +19,14 @@ jobs:
         with:
           node-version: 20.x
 
-      - name: Install Dependencies
-        run: |
-          npm install --prefix Backend
-          npm install --prefix Frontend
+      - name: Install Backend Dependencies
+        run: cd Backend && npm install
+
+      - name: Install Frontend Dependencies
+        run: cd Frontend && npm install
 
       - name: Build Frontend Application
-        run: |
-          cd Frontend
-          npm run build
+        run: cd Frontend && npx vite build
+
 
 
